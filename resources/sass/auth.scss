@@ -1,0 +1,158 @@
+@import "theme-colors";
+@import "spacing";
+@import '~bootstrap/scss/bootstrap';
+
+html,
+body {
+    height: 100%;
+    background-size: cover;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #222222;
+    background: url("../images/welcome-gradient.svg") no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 36em) {
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: transparentize($dark, .75);
+    }
+}
+
+#auth-page div {
+    width: 100px;
+}
+
+main {
+    flex: 1;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.btn-login {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    min-width: 150px;
+}
+
+.font-xs {
+    font-size: 0.75rem;
+}
+
+.fill-current {
+    fill: currentColor;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    margin: auto;
+    z-index: 1;
+}
+
+.form-signin .form-signin-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem
+}
+
+.mb-login {
+    margin-bottom: 2rem;
+}
+
+.text-smat-login {
+    letter-spacing: 2px;
+    color: rgb(254, 209, 54);
+}
+
+#submit:hover .text-smat-login {
+    color: rgb(255, 182, 0);
+    transition: 0.25s ease;
+}
+
+@media only screen and (min-width: 48em) {
+    .overlay {
+        display: none;
+    }
+
+    .form-signin {
+        background-color: transparentize($primary, .5);
+        border-radius: 1rem;
+        padding: 25px;
+    }
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control-inverse {
+    color: $white;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(216, 224, 255, 0.25);
+}
+
+input[type='text']::placeholder, input[type='password']::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#see-password {
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 3;
+    opacity: 0.75;
+}
+
+.loader {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #222222;
+    border-top: 3px solid mediumspringgreen;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}

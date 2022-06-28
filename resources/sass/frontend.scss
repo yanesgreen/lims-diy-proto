@@ -1,0 +1,52 @@
+@import "theme-colors";
+@import "spacing";
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome-page {
+    background: url('../images/pussansiad-gradient.svg') no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.btn-login {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    min-width: 150px;
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce-1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

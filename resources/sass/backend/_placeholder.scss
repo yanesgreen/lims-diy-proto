@@ -1,0 +1,8 @@
+
+input[type='text']::placeholder {
+    color: lightgrey;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}

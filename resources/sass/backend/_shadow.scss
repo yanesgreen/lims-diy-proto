@@ -1,0 +1,11 @@
+.shadow-raised {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .07);
+    transition: all 0.5s;
+
+    &:hover {
+        transform: translateY(-4px) scale(1.02);
+        -webkit-box-shadow: 0 14px 24px rgba(62, 57, 107, .2);
+        box-shadow: 0 14px 24px rgba(62, 57, 107, .2);
+        transition: all 0.5s;
+    }
+}

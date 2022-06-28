@@ -1,0 +1,89 @@
+$primary: #0b4953;
+$secondary: #009688;
+$info: #00fcff;
+$white: #ffffff;
+$dark: #000000;
+
+.bg {
+    &-white {
+        &-25 {
+            background: transparentize($white, .25);
+        }
+
+        &-50 {
+            background: transparentize($white, .5);
+        }
+    }
+
+    &-primary {
+        &-25 {
+            background: transparentize($primary, .25);
+        }
+
+        &-50 {
+            background: transparentize($primary, .5);
+        }
+    }
+
+    &-secondary {
+        &-25 {
+            background: transparentize($secondary, .25);
+        }
+
+        &-50 {
+            background: transparentize($secondary, .5);
+        }
+    }
+
+    &-info {
+        &-25 {
+            background: transparentize($info, .25);
+        }
+
+        &-50 {
+            background: transparentize($info, .5);
+        }
+    }
+}
+
+.text {
+    &-white {
+        &-25 {
+            color: transparentize($white, .25);
+        }
+
+        &-50 {
+            color: transparentize($white, .5);
+        }
+    }
+
+    &-primary {
+        &-25 {
+            color: transparentize($primary, .25);
+        }
+
+        &-50 {
+            color: transparentize($primary, .5);
+        }
+    }
+
+    &-secondary {
+        &-25 {
+            color: transparentize($secondary, .25);
+        }
+
+        &-50 {
+            color: transparentize($secondary, .5);
+        }
+    }
+
+    &-info {
+        &-25 {
+            color: transparentize($info, .25);
+        }
+
+        &-50 {
+            color: transparentize($info, .5);
+        }
+    }
+}

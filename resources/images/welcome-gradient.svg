@@ -1,0 +1,20 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1920 1080"
+     style="enable-background:new 0 0 1920 1080" xml:space="preserve"><style>.st1{fill:none;stroke:#fff;stroke-miterlimit:10}.st1,.st2{opacity:.5}.st3{fill:#dcdcdc}</style>
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="6.426" y1="21.312" x2="1914.17" y2="1063.014"
+                    gradientTransform="matrix(1 0 0 -1 0 1082)"><stop offset="0" style="stop-color:#1ca792"/>
+        <stop offset="1" style="stop-color:#23c985"/></linearGradient>
+    <path d="M0 0h1920v1080H0V0z" style="fill:url(#SVGID_1_)"/>
+    <path class="st1"
+          d="m1920 578.4-222.2-128.2-541.6-312.7L918.1 0M67.7 0l661.2 381.8 541.7 312.7 357.9 206.6 179 103.4 112.5 64.9M0 393.2l352.7 203.6 541.6 312.7 295.3 170.5M0 729.4l60.2 34.7 541.6 312.7 5.5 3.2M250.8 1080 0 935.2"/>
+    <path class="st1"
+          d="m1396.7 0-240.5 137.5-427.3 244.3-376.2 215L60.2 764.1 0 798.5M1920 323.2l-222.2 127-427.2 244.3-376.3 215-292.5 167.3-5.7 3.2M1920 734.5l-291.5 166.6-312.8 178.9M1920 940.2l-112.5 64.3-132.1 75.5"/>
+    <g class="st2"><path class="st3" d="m1180.9 136-25.9 15.1-26.1-15.1 25.9-15.1z"/></g>
+    <g class="st2"><path class="st3" d="m754.5 382-26 15.1-26.1-15.1 26-15z"/></g>
+    <g class="st2"><path class="st3" d="m377.6 598.1-25.9 15.1-26.1-15.1 25.9-15.1z"/></g>
+    <g class="st2"><path class="st3" d="m85 764.3-25.9 15.1L33 764.3l25.9-15.1z"/></g>
+    <g class="st2"><path class="st3" d="m1295.7 694.7-26 15.1-26.1-15.1 25.9-15.1z"/></g>
+    <g class="st2"><path class="st3" d="m1832.6 1003.4-25.9 15-26.2-15 26-15.1z"/></g>
+    <g class="st2"><path class="st3" d="m1654.5 901.7-26 15-26.1-15 26-15.1z"/></g>
+    <g class="st2"><path class="st3" d="m919.6 909-25.9 15.1-26.1-15.1 25.9-15z"/></g>
+    <g class="st2"><path class="st3" d="m1722.5 448.7-25.9 15.1-26.1-15.1 25.9-15.1z"/></g>
+</svg>
